@@ -7,7 +7,7 @@ This project is part of my Master's Thesis, titled "Detección Automatizada de E
 - Feature Engineering: Includes robust feature extraction such as Signal-to-Noise Ratio (SNR), Box Least Squares (BLS) period analysis, transit depth, duration, and periodicities in the light curves.
 
 ## Notebooks and Files
-- _Global Project - Kepler Data Exoplanet Detection.ipynb_ : The main notebook with all steps from data preprocessing, feature extraction, model training, and evaluation.
+- _Kepler Data Exoplanet Detection.ipynb_ : The main notebook with all steps from data preprocessing, feature extraction, model training, and evaluation.
 - Data Preprocessing: Handles outlier removal, noise reduction using Savitzky-Golay and median filters, scaling, and class balancing with SMOTE.
 - Feature Engineering: Calculates key features that are significant for exoplanet detection. Fourier and BLS analyses are performed to capture periodicity and transit features.
 - Model Training & Evaluation: Implements three main approaches:
